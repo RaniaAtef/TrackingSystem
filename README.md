@@ -13,7 +13,8 @@ This React app is a shipment tracking service similar to Bosta's website trackin
 
 ## Screenshots
 
-![image](https://github.com/RaniaAtef/TrackingSystem/assets/33877902/1bc422a7-6244-4a8f-b010-5ebe0abd85f4)
+![screencapture-localhost-5173-2024-02-17-00_34_10](https://github.com/RaniaAtef/TrackingSystem/assets/33877902/e0834b61-18b2-466c-9a9a-7ba0544c8291)
+
 
 ## Installation
 
