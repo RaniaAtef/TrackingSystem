@@ -4,27 +4,24 @@ import { useTranslation } from "react-i18next";
 
 const TrackItem = () => {
   const { t } = useTranslation();
-
   const { ShipmentDetails } = useContext(ItemsContext);
   const status = ShipmentDetails?.CurrentStatus?.state || "";
   const [stage, setStage] = useState(0);
+
   useEffect(() => {
     if (status === "TICKET_CREATED") {
       setStage(1);
-    } else if (status === "PACKAGE_RECEIVED" || "DELIVERED_TO_SENDER") {
+    } else if (status === "DELIVERED_TO_SENDER") {
       setStage(2);
     } else if (status === "OUT_FOR_DELIVERY") {
       setStage(3);
     } else if (status === "DELIVERED") {
       setStage(4);
-    } else {
+    } else if (status === "CANCELLED") {
       setStage(0);
     }
   }, [status]);
 
-  if (!ShipmentDetails?.TrackingNumber) {
-    return null;
-  }
   return (
     <div className="border p-9 sm:p-9 w-full">
       <div className="flex flex-col md:flex-row justify-between">

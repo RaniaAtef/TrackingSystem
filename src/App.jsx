@@ -12,7 +12,6 @@ function App() {
         <Navbar />
         <div className="flex flex-col items-center my-9 gap-10">
           <Search />
-          <TrackItem />
         </div>
         <ShipmentDetails />
       </div>
