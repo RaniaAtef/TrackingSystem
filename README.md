@@ -2,24 +2,25 @@
 
 ## Description
 
-This React app is a shipment tracking service similar to Bosta's website tracking service (bosta.co). It calls the Bosta Shipment Tracking API to retrieve shipment details and displays them in a responsive UI. The app supports both English and Arabic languages, utilizing the Cairo font for a consistent look and feel.
+This React app is a shipment tracking service similar to Bosta's website tracking service (bosta.co). It calls the Bosta Shipment Tracking API to retrieve shipment details and displays them in a responsive UI. The app supports both English and Arabic languages.
 
 ## Features
 
 - Shipment tracking using the Bosta API.
 - Responsive UI design for a seamless experience on various devices.
 - Language support for both English and Arabic.
-- Utilizes React, Redux/Context for state management, and JavaScript/TypeScript.
+- Utilizes React, Context for state management, and JavaScript.
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![image](https://github.com/RaniaAtef/TrackingSystem/assets/33877902/1bc422a7-6244-4a8f-b010-5ebe0abd85f4)
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/bosta-shipment-tracking-app.git
+git clone https://github.com/RaniaAtef/TrackingSystem.git
+npm i
+npm run dev
 
