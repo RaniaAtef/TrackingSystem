@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import logoImg from "../../public/tracking-icon-for-your-website-design-logo-app-ui-free-vector.jpg";
 const Navbar = () => {
   const html = document.getElementsByTagName("html")[0];
   const { t, i18n } = useTranslation();
@@ -13,17 +13,9 @@ const Navbar = () => {
     <div className="navbar bg-base-100 flex justify-between ">
       <div className="navbar-start">
         {i18n.language === "ar" ? (
-          <img
-            src="../../public/tracking-icon-for-your-website-design-logo-app-ui-free-vector.jpg"
-            width="70px"
-            height="10px"
-          />
+          <img src={logoImg} width="70px" height="10px" />
         ) : (
-          <img
-            src="../../public/tracking-icon-for-your-website-design-logo-app-ui-free-vector.jpg"
-            width="70px"
-            height="10px"
-          />
+          <img src={logoImg} width="70px" height="10px" />
         )}
       </div>
       <div className="navbar-center  hidden lg:flex">
