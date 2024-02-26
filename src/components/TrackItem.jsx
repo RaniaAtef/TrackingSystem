@@ -50,7 +50,7 @@ const TrackItem = () => {
         </div>
         <div>
           <p className="text-gray-500">{t("Seller name")}</p>
-          <p className="font-bold mt-3">Bosta</p>
+          <p className="font-bold mt-3">{t("Unknown")}</p>
         </div>
         <div>
           <p className="text-gray-500">{t("Promised date")}</p>

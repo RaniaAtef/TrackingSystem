@@ -46,7 +46,7 @@ const ShipmentDetails = () => {
     getData();
   }, [itemNum]);
   if (!ShipmentDetails?.TrackingNumber) {
-    return <h3>{t("No Items")}</h3>;
+    return <h3 className="flex justify-center">{t("No Items")}</h3>;
   }
   return (
     <>
